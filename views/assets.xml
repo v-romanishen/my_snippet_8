@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+
+        <template id="my_snippet_style" name="My style" inherit_id="website.assets_frontend">
+            <xpath expr="." position="inside">
+                <link href="/my_snippet/static/src/less/style.less" rel="stylesheet" type="text/less"/>
+            </xpath>
+            <xpath expr="." position="inside">
+                <link href="/my_snippet/static/src/css/style.css" rel="stylesheet" type="text/css"/>
+            </xpath>
+        </template>
+
+        <template id="my_snippet_script" inherit_id="website.assets_editor" name="Test Editor">
+			<xpath expr="/t" position="inside">
+				<script type="text/javascript" src="/my_snippet/static/src/js/script.js" />
+			</xpath>
+		</template>
+
+    </data>
+</openerp>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+	<data>
+		<template id="snippet_my_snippet" inherit_id="my_snippet_block" name="My Snippets">
+			<xpath expr="//div[@id='my_snippet']" position="inside">
+				<div>
+					<!-- image -->
+					<div class="oe_snippet_thumbnail">
+						<img src="/my_snippet/static/src/img/img_for_snippet.png" class="oe_snippet_thumbnail_img" />
+						<span class="oe_snippet_thumbnail_title">
+							Display 2
+						</span>
+					</div>
+
+					<!-- snippet -->
+					<section class="oe_snippet_body table_options">
+						<div class="container">
+							<table class="table">
+
+								<thead>
+									<tr>
+										<th scope="col">#</th>
+										<th scope="col">Имя</th>
+										<th scope="col">Фамилия</th>
+										<th scope="col">Username</th>
+									</tr>
+								</thead>
+
+								<tbody>
+									<tr>
+										<th scope="row">1</th>
+										<td>Mark</td>
+										<td>Otto</td>
+										<td>@mdo</td>
+									</tr>
+									<tr>
+										<th scope="row">2</th>
+										<td>Jacob</td>
+										<td>Thornton</td>
+										<td>@fat</td>
+									</tr>
+									<tr>
+										<th scope="row">3</th>
+										<td>Larry</td>
+										<td>the Bird</td>
+										<td>@twitter</td>
+									</tr>
+								</tbody>
+
+							</table>
+						</div>
+					</section>
+
+				</div>
+			</xpath>
+		</template>
+
+		<!-- ===TEST SNIPPET=== -->
+		<!-- <template id="next_snippet" inherit_id="my_snippet_block" name="Next Snippets">
+			<xpath expr="//div[@id='my_snippet']" position="inside">
+				<div>
+					<div class="oe_snippet_thumbnail">
+						<img src="/my_snippet/static/src/img/img_for_snippet.png" class="oe_snippet_thumbnail_img" />
+						<span class="oe_snippet_thumbnail_title">
+							Next Snippet
+						</span>
+					</div>
+
+					<section class="oe_snippet_body table_options">
+						<div class="container">
+
+						</div>
+					</section>
+				</div>
+			</xpath>
+		</template> -->
+
+	</data>
+</openerp>
